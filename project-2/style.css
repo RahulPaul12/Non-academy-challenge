@@ -20,7 +20,7 @@
 	height: 80px;
 	border-radius: 100% 0;
     border: 20px solid rgb(4, 63, 151);
-	background-color: #32cd32;
+	background-color: rgb(5, 99, 207);
 	position: absolute;
     overflow: hidden;
     top: 12%;
@@ -31,7 +31,7 @@
 	width: 80px;
 	height: 80px;
 	border-radius: 100% 0;
-	background-color: #32cd32;
+	background-color:rgb(5, 99, 207);;
     border: 20px solid rgb(4, 63, 151);
 	position: absolute;
     overflow: hidden;
@@ -44,7 +44,7 @@
 	width: 80px;
 	height:80px;
 	border-radius: 100% 0;
-	background-color: #27c627;
+	background-color: rgb(5, 99, 207);;
     border: 20px solid rgb(4, 63, 151);
 	position: absolute;
     top: 48%;
@@ -57,7 +57,7 @@
 	width: 80px;
 	height: 80px;
 	border-radius: 100% 0;
-	background-color: #32cd32;
+	background-color: rgb(5, 99, 207);;
     border: 20px solid rgb(4, 63, 151);
 	position: absolute;
     top: 48%;
@@ -65,11 +65,3 @@
     transform: rotate(180deg);
 
 }
-/* 
-.leaf-up{
-    height: 50%;
-    
-}
-.leaf-down{
-    height: 50%;
-} */
