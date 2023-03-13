@@ -1,0 +1,107 @@
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 400px;
+    margin: auto;
+    flex-direction: column;
+    font-family: Hack, monospace;
+    position: relative;
+    background: #0c0c0c;
+  }
+.batman{
+  background-color: gold;
+  width: 50%;
+  height: 35%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.box-1 {
+  width: 24%;
+  height: 50px;
+  position:absolute;
+  overflow: hidden;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.box-2 {
+  width: 30%;
+  margin-top: 20px;
+  height: 50px;
+  position:absolute;
+  background-color: rgb(255, 227, 12);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+.eye-1 , .eye-2 {
+  width: 30%;
+  top: -8%;
+  
+  border-radius: 50%;
+  height: 30%;
+  position:absolute;
+  background-color: gold;
+}
+.eye-1{
+  left: -5%;
+}
+.eye-2 {
+  top: -8%;
+  right: -5%;
+  
+}
+.circle {
+  
+  background: #000000;
+  
+}
+
+.circle-3 {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: 32%;
+  left: 15%;
+  border-radius: 40% 60% 40% 10%;
+  transform: rotate(90deg);
+}
+
+.circle-4 {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: 32%;
+  right: 15%;
+  border-radius: 40% 60% 40% 10%;
+  transform: rotate(180deg);
+}
+.circle-5 {
+  position: absolute;
+  width: 210px;
+  height: 100px;
+  top: 55%;
+  right: 15%;
+  border-radius: 100%;
+  
+}
+.circle-6 {
+  position: absolute;
+  width: 210px;
+  height: 100px;
+  top: 55%;
+  left: 15%;
+  border-radius: 100% ;
+  
+}
+
+
+
